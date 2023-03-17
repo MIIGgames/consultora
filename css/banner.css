@@ -1,0 +1,62 @@
+.banner {
+    background-image: url(../img/img-predios-banner-principal\ \(1\).png);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .descricao {
+    background-color: #f4f0f0fe;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+.descricao h1 {
+    text-align: center;
+    color: #2649be;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricao p {
+    color: #2649be;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.descricao .button-banner {
+    background-color: #2649be;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .banner {
+        height: 100vh;
+        width: auto;
+        background-position: center;
+    }
+    .banner .descricao {
+        width: auto;
+        height: auto;
+    }
+    .descricao h1 {
+        font-size: 2rem;
+        width: auto;
+    }
+}

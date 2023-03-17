@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultora </title>
+
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <!-- =================== MENU ================== -->
+    <header id="header">
+        <a id="logo" href="index.html"><img src="img/Nível Superior de Marketing.png" alt=""><div class="nome-logo">Nível superior de Marketing</div></a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
+            <ul id="menu" role="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servico">Serviços</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#suporte">Suporte</a></li>
+                <li class="contato-menu"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+      </header>
+
+      <!-- =================== MENU ================== -->
+      <section class="banner">
+        <div class="descricao">
+            <h1>BEM VINDO(A)</h1>
+            <p>Nível Superior de Marketing é uma empresa de marketing digital especializada em ajudar outras pessoas a alcançar o sucesso online. Com uma equipe altamente qualificada e experiente, oferecemos soluções personalizadas para cada cliente, desde pequenas empresas até grandes corporações.</p>
+            <a href="#saibamais" class="button-banner">Saiba mais</a>
+        </div>
+      </section>
+
+      <!-- =================== SECTION-1 ================== -->
+      <section class="apresentacao-parte-1">
+        <div class="ab12-iii">
+            <h1>Marketing só é bom quando vende!</h1>
+            <p>Somos referência em tráfego pago e estamos 100% focados em seu sucesso!.</p>
+            <button class="button-apresentacao ">QUERO VENDER +</button>
+            <p>+ de 15 Milhões em oportunidades geradas somente em 2022.</p>
+            <!-- ======= img =========-->
+        </div>
+        <img src="img/gestor-de-trafego-pago.png" alt="">
+      </section>
+
+      <!-- ======= Seta =========-->
+      <div class="seta-1">
+        <span class="seta"></span>
+        <span class="seta"></span>
+    </div>
+    <style>
+    /* Seta */
+    .seta-1 {
+        height: 10vh;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seta{
+        width: 10px;
+        height: 40px;
+        background: #000;
+        border-radius: 5px;
+        margin: 6px;
+        animation: move 1.1s infinite ease-in-out;
+    }
+    span:nth-of-type(1){
+        transform: rotate(-45deg);
+    }
+
+    span:nth-of-type(2){
+        transform: rotate(45deg);
+    }
+
+    @keyframes move {
+        0%{margin-top: 0;}
+        50%{margin-top: 10px;}
+        100%{margin-top: 0;}
+    }
+    </style>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
