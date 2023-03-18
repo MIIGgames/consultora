@@ -1,0 +1,98 @@
+.fazemos-de-melhor {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.fazemos-de-melhor .linhas {
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fazemos-de-melhor h1 {
+    color: #2649be;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-fazemos {
+    width: 80%;
+    height: auto;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-fazemos img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card-fazemos h2 {
+    color: #2649be;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-fazemos P {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    .fazemos-de-melhor {
+        margin: auto;
+        height: auto;
+    }
+    .fazemos-de-melhor h1 {
+        color: #2649be;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .card-fazemos h2 {
+        color: #2649be;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .card-fazemos P {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: left;
+        width: auto;
+        padding: 10px;
+    }
+    .card-fazemos {
+        width: auto;
+        height: auto;
+        gap: 10px;
+        background-color: #425bac12;
+    }
+    .card-fazemos img{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        border-radius: 100%;
+        margin-top: 20px;
+    }
+    
+}

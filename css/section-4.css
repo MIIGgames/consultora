@@ -1,0 +1,91 @@
+.nosso-trabalho {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.nosso-trabalho .linhas {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.linha {
+    height: 10%;
+    width: 25%;
+    padding: 1px;
+    background-color: #000;
+}
+
+.nosso-trabalho h1 {
+    color: #2649be;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.card {
+    background-color: #425bac12;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.card h2 {
+    color: #2649be;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card p {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .nosso-trabalho {
+        height: auto;
+        width: auto;
+        padding: 10px;
+    }
+    .linhas .linha {
+        display: none;
+    }
+    .nosso-trabalho h1 {
+        color: #2649be;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .card img {
+        width: 100px;
+        height: 100px;
+    }
+    
+}

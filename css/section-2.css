@@ -1,0 +1,70 @@
+.sobre {
+    background-color: #000000da;
+    height: auto;
+    width: 100%;
+}
+
+.sobre .descricao-sobre {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.ab12-iii-sobre {
+    margin: auto;
+    width: 50%;
+    font-weight: 600;
+}
+
+.descricao-p-sobre {
+    font-size: 1.5rem;
+    color: #fff;
+    width: 50%;
+}
+
+.descricao-sobre h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.descricao-sobre .azul {
+    color: #2649be;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .sobre {
+        width: auto;
+        height: auto;
+    }
+    .sobre .descricao-sobre {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        gap: 0;
+        padding: 20px;
+    }
+    .ab12-iii-sobre {
+        width: auto;
+        text-align: left;
+    }
+    .descricao-sobre h1 {
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 600;
+    }
+    .descricao-sobre .azul {
+        color: #2649be;
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+    .descricao-p-sobre {
+        font-size: 1.5rem;
+        color: #fff;
+        width: auto;
+    }
+}
