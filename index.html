@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultora </title>
-    <link rel="shortcut icon" href="img/Nível Superior de Marketing.png" type="image/x-icon">
+    <title>Consultora Miranda</title>
+    <link rel="shortcut icon" href="img/Nível Superior de Marketing (2).png" type="image/x-icon">
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
     <!-- =================== MENU ================== -->
     <header id="header">
-        <a id="logo" href="index.html"><img src="img/Nível Superior de Marketing.png" alt=""><div class="nome-logo">Nível superior de Marketing</div></a>
+        <a id="logo" href="index.html"><img src="img/Nível Superior de Marketing (2).png" alt=""><div class="nome-logo">Consultora Miranda</div></a>
         <nav id="nav">
           <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
             <span id="hamburger"></span>
           </button>
             <ul id="menu" role="menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#servico">Serviços</a></li>
-                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servico">Serviço</a></li>
                 <li><a href="#suporte">Suporte</a></li>
                 <li class="contato-menu"><a href="#contato">Contato</a></li>
             </ul>
@@ -30,17 +30,21 @@
       <section class="banner">
         <div class="descricao">
             <h1>BEM VINDO(A)</h1>
-            <p>Nível Superior de Marketing é uma empresa de marketing digital especializada em ajudar outras pessoas a alcançar o sucesso online. Com uma equipe altamente qualificada e experiente, oferecemos soluções personalizadas para cada cliente, desde pequenas empresas até grandes corporações.</p>
-            <a href="#saibamais" class="button-banner">Saiba mais</a>
+            <p>Consultora Miranda é uma empresa de marketing digital especializada em ajudar outras pessoas a alcançar o sucesso online. Com uma equipe altamente qualificada e experiente, oferecemos soluções personalizadas para cada cliente, desde pequenas empresas até grandes corporações.</p>
+            <a href="#saiba" class="button-banner">Saiba mais</a>
         </div>
       </section>
 
       <!-- =================== SECTION-1 ================== -->
-      <section class="apresentacao-parte-1">
+      <section id="home" class="apresentacao-parte-1">
         <div class="ab12-iii">
             <h1>Marketing só é bom quando vende!</h1>
             <p>Somos referência em tráfego pago e estamos 100% focados em seu sucesso!.</p>
-            <button class="button-apresentacao ">QUERO VENDER +</button>
+            <button onclick="redirectToLink()" class="button-apresentacao ">QUERO VENDER +</button>
+            <script>function redirectToLink() {
+                window.location.href = "https://wa.link/c3r8j3";
+              }
+              </script>
             <p>+ de 15 Milhões em oportunidades geradas somente em 2022.</p>
             <!-- ======= img =========-->
         </div>
@@ -48,7 +52,7 @@
       </section>
 
       <!-- =================== SECTION-2 ================== -->
-      <section class="sobre">
+      <section id="sobre" class="sobre">
         <div class="descricao-sobre">
             <div class="ab12-iii-sobre">
                 <h1>Não basta investir na Internet.</h1>
@@ -64,7 +68,7 @@
       </section>
 
       <!-- =================== SECTION-1 ================== -->
-      <section class="sobre-voce">
+      <section id="saiba" class="sobre-voce">
         <div class="voce">
             <h1>O que podemos fazer por você?</h1>
             <p>Diferente das agências de marketing tradicionais, a Foquetool é uma assessoria focada em crescimento e performance através de estratégias digitais.</p>
@@ -78,7 +82,7 @@
       </section>
 
       <!-- =================== SECTION-4 ================== -->
-      <section class="nosso-trabalho">
+      <section id="servico" class="nosso-trabalho">
         <div class="linhas">
             <div class="linha"></div>
             <h1>Nosso trabalho</h1>
@@ -106,7 +110,7 @@
       </section>
 
       <!-- =================== SECTION-5 ================== -->
-      <section class="fazemos-de-melhor">
+      <section id="suporte" class="fazemos-de-melhor">
         <div class="linhas">
             <div class="linha"></div>
             <h1>O que fazemos de melhor</h1>
@@ -137,6 +141,55 @@
         </div>
       </section>
 
+      <!-- =================== SECTION-6 ================== -->
+      <section class="venda">
+        <div class="barra">
+            <h1>Venda mais e melhor!</h1>
+            <h3>Seu faturamento hoje</h3>
+            <div class="container-2">
+                <div class="progress-bar-2"></div>
+            </div>
+            <h3>Seu faturamento com estratégias de marketing assertivas</h3>
+            <div class="container-2">
+                <div class="progress-bar"></div>
+            </div>
+            <p>Apenas publicar nos stories e feed do Facebook e Instagram, não irá trazer resultados expressivos para você e para a sua empresa. Você precisa de um funil de aquisição personalizado focado em resultados!</p>
+        </div>
+      </section>
+
+      <!-- =================== CONTATO ================== -->
+      <section id="contato" class="contato">
+        <div class="conta-te">
+            <h1>
+                Consultora Miranda
+            </h1>
+            <p>R.Polinesia C14 Q17 Manaus - AM</p>
+            <p>+55 92 99336-8930</p>
+        </div>
+    <form class="form" action="https://formsubmit.co/nivelsuperiordemarketing@gmail.com" method="POST">
+            <h2 class="form__title">Entre em Contato</h2>
+            <div class="form__group">
+              <input class="form__input" type="text" id="first-name" name="first-name" placeholder="Nome" required>
+              <label class="form__label" for="first-name">Nome</label>
+            </div>
+            <div class="form__group">
+              <input class="form__input" type="text" id="last-name" name="last-name" placeholder="Sobrenome" required>
+              <label class="form__label" for="last-name">Sobrenome</label>
+            </div>
+            <div class="form__group">
+              <input class="form__input" type="email" id="email" name="email" placeholder="E-mail" required>
+              <label class="form__label" for="email">E-mail</label>
+            </div>
+            <div class="form__group">
+              <textarea class="form__input form__textarea" id="message" name="message" placeholder="Mensagem" required></textarea>
+              <label class="form__label" for="message">Mensagem</label>
+            </div>
+            <button class="form__button" type="submit">Enviar</button>
+          </form>
+          
+      </section>
+
     <script src="js/menu.js"></script>
+    <script src="js/menu-ancora.js"></script>
 </body>
 </html>

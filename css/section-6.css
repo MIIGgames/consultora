@@ -1,0 +1,64 @@
+.venda {
+    background-color: #b3b3b300;
+    height: auto;
+}
+
+.venda .barra {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.barra h1 {
+    color: #2649be;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.barra p {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center; 
+}
+
+.container-2 {
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+}
+.container-2 .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #0fd439;
+   animation: progress-animation 5s infinite;
+}
+
+.container-2 .progress-bar-2 {
+    position: absolute;
+    height: 100%;
+    background-color: rgb(227, 12, 12);
+    animation: progress-red 5s infinite;
+}
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    100% { width: 100%}
+}
+@keyframes progress-red{
+    0% { width: 0%; } 
+    100% { width: 20%}
+}
+
+@media screen and (max-width:768px) {
+    .venda {
+        padding: 10px;
+    }
+    .barra p {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center; 
+    }
+}
